@@ -235,19 +235,11 @@
 }
 
 /* testimonials */
-.home-testimonial {
-    background-color: #231834;
-    height: 380px
-}
 
 .home-testimonial-bottom {
     background-color: #f8f8f8;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin-top: 20px;
-    margin-bottom: 0px;
     position: relative;
-    height: 130px;
-    top: 190px
 }
 
 .home-testimonial h3 {
@@ -265,7 +257,7 @@
 
 .testimonial-inner {
     position: relative;
-    top: -174px
+    /* top: -174px */
 }
 
 .testimonial-pos {
@@ -275,7 +267,7 @@
 
 .testimonial-inner .tour-desc {
     border-radius: 5px;
-    padding: 40px
+    padding: 34px
 }
 
 .color-grey-3 {
@@ -284,20 +276,11 @@
     color: #6c83a2
 }
 
-.testimonial-inner img.tm-people {
-    width: 60px;
-    height: 60px;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    max-width: none
-}
-
 .link-name {
     font-family: "Montserrat", Sans-serif;
     font-size: 14px;
-    color: #6c83a2
+    color: #6c83a2;
+    padding-top:30px;
 }
 
 .link-position {
@@ -385,15 +368,15 @@ footer {
     }
 
     .comp1 {
-        margin: 15px 140px 0 130px;
+        margin: 15px 157px 0 137px;
     }
 
     .comp2 {
-        margin: 15px 140px 0 130px;
+        margin: 15px 157px 0 137px;
     }
 
     .comp3 {
-        margin: 15px 140px 0 130px;
+        margin: 15px 157px 0 137px;
     }
 
     .disp h3 {
@@ -410,11 +393,11 @@ footer {
     }
 
     .img1 {
-        width: 350px;
+        width: 380px;
     }
 
     .img2 {
-        width: 350px;
+        width: 375px;
     }
 
 }
